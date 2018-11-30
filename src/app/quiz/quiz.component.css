@@ -1,0 +1,23 @@
+.quizStatement
+{ border-width: 2px;
+    padding: 10px;
+    width:100%;
+    height:auto;
+    border-color: black;
+    overflow: auto;
+}
+.quizText
+{
+    
+}
+
+.quizForm
+{   padding: 10px;
+    border-width: 2px;
+    width: 100%;
+    height : auto;
+    display: block;
+    border-color: black;
+    border-radius: 10px 10px 10px 10px;
+
+}
