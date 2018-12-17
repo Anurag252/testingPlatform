@@ -12,7 +12,10 @@ maximumScore : {type :  Number , required : true , max : 1000} ,
 //array of questions
 questions : [{type: String , required : true , max : 500}],
 
-accessCodeprop : {type : [accessCodeimp.accessCode] ,required : true }
+accessCodeprop : {type : {accessCodestr : {type : String ,  required : true  , max : 30},
+emailIdAllowed : {type : String , required : true , max : 50} ,
+expiryDate : {type : String , required : true  } 
+} ,required : true }
 });
 
 module.exports = mongoose.model('exam',exam);

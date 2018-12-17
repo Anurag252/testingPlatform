@@ -8,4 +8,6 @@ const test_controller = require('../controller/test.controller');
 // a simple test url to check that all of our files are communicating correctly.
 
 router.post('/scheduleTest', test_controller.examSet);
+router.post('/fetchTest', test_controller.fetchExam);
+
 module.exports = router;
